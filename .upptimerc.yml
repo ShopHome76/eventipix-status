@@ -1,18 +1,54 @@
 owner: ShopHome76
 repo: eventipix-status
+user-agent: ShopHome76
 
 sites:
   - name: Site public Eventipix
     url: https://eventipix.com
+    icon: https://eventipix.com/img/favicon/favicon-96x96.png
+    expectedStatusCodes:
+      - 200
 
 status-website:
   cname: status.eventipix.com
   name: État des services Eventipix
+  logoUrl: https://eventipix.com/img/logo-header.png
+  favicon: https://eventipix.com/img/favicon/favicon-96x96.png
+  faviconSvg: https://eventipix.com/img/favicon/favicon.svg
+
   introTitle: État des services Eventipix
-  introMessage: Consultez la disponibilité des services Eventipix en temps réel.
+  introMessage: Consultez en temps réel la disponibilité des services Eventipix.
 
   navbar:
     - title: État des services
       href: /
-    - title: Eventipix
+    - title: Retour à Eventipix
       href: https://eventipix.com
+
+  theme: light
+
+  css: |
+    :root {
+      --body-background-color: #EFEDE3;
+      --body-text-color: #1D2C3A;
+      --card-background-color: #FFFFFF;
+      --nav-background-color: #1D2C3A;
+      --nav-border-bottom-color: #AD4949;
+    }
+
+    body {
+      color: #1D2C3A;
+    }
+
+    nav {
+      border-bottom: 3px solid #AD4949;
+    }
+
+    nav img {
+      width: auto;
+      max-height: 42px;
+    }
+
+    a {
+      color: #AD4949;
+    }
