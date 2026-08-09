@@ -12,6 +12,35 @@ sites:
 status-website:
   cname: status.eventipix.com
   name: État des services Eventipix
+
+  i18n:
+    activeIncidents: Incidents en cours
+    allSystemsOperational: Tous les services sont opérationnels
+    incidentReport: "Rapport de l’incident n° $NUMBER →"
+    activeIncidentSummary: "Ouvert le $DATE avec $POSTS mises à jour"
+    incidentTitle: "Détails de l’incident n° $NUMBER"
+    incidentDetails: Détails de l’incident
+    incidentFixed: Résolu
+    incidentOngoing: En cours
+    incidentOpenedAt: Ouvert le
+    incidentClosedAt: Résolu le
+    incidentViewOnGitHub: Voir les détails de l’incident
+    incidentCommentSummary: "Publié le $DATE"
+    incidentBack: ← Retour aux incidents
+    pastIncidents: Incidents précédents
+    pastIncidentsResolved: "Résolu en $MINUTES minutes avec $POSTS mises à jour"
+    liveStatus: État actuel des services
+    overallUptime: "Disponibilité globale : $UPTIME"
+    overallUptimeTitle: Disponibilité globale
+    averageResponseTime: "Temps de réponse moyen : $TIME ms"
+    averageResponseTimeTitle: Temps de réponse moyen
+    responseTimeMs: Temps de réponse en millisecondes
+    up: Opérationnel
+    down: Indisponible
+    degraded: Performances dégradées
+    loading: Chargement…
+    footer: État des services Eventipix
+
   logoUrl: https://eventipix.com/img/logo-header.png
   favicon: https://eventipix.com/img/favicon/favicon-96x96.png
   faviconSvg: https://eventipix.com/img/favicon/favicon.svg
